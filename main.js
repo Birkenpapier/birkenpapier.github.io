@@ -43,12 +43,3 @@ navLi.forEach( li => {
 })
 })
 
-// document.addEventListener("contextmenu", function (e){
-//   e.preventDefault();
-// }, false);
-// https://github.com/Birkenpapier
-document.addEventListener("contextmenu", function(e){
-  if (e.target.nodeName === "IMG") {
-      e.preventDefault();
-  }
-}, false);

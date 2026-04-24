@@ -6,30 +6,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="index, follow" />
   <meta name="theme-color" content="#000" />
-  <meta name="description" content="Kevin Peivareh provides custom software development services, specializing in AI, Machine Learning, and Computer Vision solutions tailored to your business needs." />
-  <meta name="keywords"
-    content="kevin peivareh,kevin peivareh portfolio,Kevin Peivareh Portfolio,kevinpeivareh,kevin peivareh site,Kevin Peivareh Site,kevin peivareh me,kevin peivareh web,kevin peivareh github,kevinpeivareh site,kevinpeivareh uiverse,uiverse,kevin peivareh uiverse,kevin peivareh frontend developer,frontend developer,kevin peivareh hannover,kevin hannover" />
+  <meta name="description" content="Kevin Peivareh — R&D engineer based in Hannover, Germany. Custom software development, Machine Learning, and Computer Vision solutions for startups and enterprises." />
+  <meta name="keywords" content="Kevin Peivareh, R&D engineer, software developer Hannover, machine learning, computer vision, Python, C++, custom software, freelance, dioptify, servicelead" />
   <meta name="author" content="Kevin Peivareh" />
-  <meta property="og:title" content="Kevin Peivareh | Portfolio" />
-  <meta property="og:description"
-    content="Hi! My name is Kevin. I am an R&D engineer specializing in Machine Learning and Computer Vision, and I founded Dioptify to drive technological innovation." />
 
-  <meta property="og:site_name" content="Kevin Peivareh Portfolio" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://birkenpapier.github.io/" />
+  <meta property="og:title" content="Kevin Peivareh | R&D Engineer & Software Developer" />
+  <meta property="og:description" content="R&D engineer in Hannover building ML, Computer Vision, and custom software. Founder of dioptify. Open for collaboration." />
+  <meta property="og:image" content="https://birkenpapier.github.io/src/webp/kevin.jpeg" />
+  <meta property="og:site_name" content="Kevin Peivareh" />
+  <meta property="og:locale" content="en_US" />
 
-  <meta name="twitter:site" content="@Portfolio" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Kevin Peivareh | Tech Lead & Entrepreneur" />
-  <meta name="twitter:description"
-  content="Hi! My name is Kevin. I am an R&D engineer specializing in Machine Learning and Computer Vision, and I founded Dioptify to drive technological innovation." />
-  <title>Kevin Peivareh | Portfolio</title>
-  <link rel="icon" type="image/x-icon" href="src/png/main-favicon.png" />
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Kevin Peivareh | R&D Engineer & Software Developer" />
+  <meta name="twitter:description" content="R&D engineer in Hannover building ML, Computer Vision, and custom software. Founder of dioptify." />
+  <meta name="twitter:image" content="https://birkenpapier.github.io/src/webp/kevin.jpeg" />
+
+  <title>Kevin Peivareh | R&D Engineer & Software Developer</title>
+  <link rel="canonical" href="https://birkenpapier.github.io/" />
+  <link rel="icon" type="image/png" href="src/png/main-favicon.png" />
+
+  <!-- Performance: preconnect to font origins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
   <!-- aos cdn -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- stylesheet -->
   <link rel="stylesheet" href="style.css" />
   <!-- google fonts-->
   <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps" />
+    href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps&display=swap" />
+
+  <!-- Structured data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Kevin Peivareh",
+    "url": "https://birkenpapier.github.io/",
+    "image": "https://birkenpapier.github.io/src/webp/kevin.jpeg",
+    "jobTitle": "R&D Engineer & Software Developer",
+    "email": "kevin@peivareh.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Hannover", "addressCountry": "DE" },
+    "sameAs": [
+      "https://github.com/Birkenpapier",
+      "https://www.linkedin.com/in/kevin-peivareh-752922b0/",
+      "https://dioptify.com"
+    ],
+    "knowsAbout": ["Machine Learning", "Computer Vision", "Python", "C++", "TypeScript", "React"]
+  }
+  </script>
+</head>
 
 <body class="body">
   <noscript>Allow Javascript</noscript>
@@ -38,32 +69,33 @@
     <div class="navbar" id="navbar">
       <div class="navbar-tabs" id="navbar-tabs">
         <ul class="navbar-tabs-ul">
-          <li class="home activeThistab" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="100">
-            <a href="#home" tabindex="0" aria-label="Home menu button">
-              Home
-            </a>
+          <li class="navbar-tabs-li home activeThistab" data-aos="fade-down" data-aos-delay="100">
+            <a href="#home" data-i18n="nav.home">Home</a>
           </li>
 
-          <li class="about" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="300">
-            <a href="#about" aria-label="about menu button">
-              About
-            </a>
+          <li class="navbar-tabs-li about" data-aos="fade-down" data-aos-delay="300">
+            <a href="#about" data-i18n="nav.about">About</a>
           </li>
 
-          <li class="skills" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
-            <a href="#skills" aria-label="skills menu button">
-              Skills
-            </a>
+          <li class="navbar-tabs-li skills" data-aos="fade-down" data-aos-delay="500">
+            <a href="#skills" data-i18n="nav.skills">Skills</a>
           </li>
 
-          <li class="projects" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">
-            <a href="#projects" aria-label="projects menu button">
-              Projects
-            </a>
+          <li class="navbar-tabs-li services" data-aos="fade-down" data-aos-delay="700">
+            <a href="#services" data-i18n="nav.services">Services</a>
+          </li>
+
+          <li class="navbar-tabs-li projects" data-aos="fade-down" data-aos-delay="900">
+            <a href="#projects" data-i18n="nav.projects">Projects</a>
           </li>
         </ul>
       </div>
-      <!-- navbar tabs ends -->
+
+      <div class="lang-toggle" role="group" aria-label="Language selector">
+        <button type="button" class="lang-toggle-btn" data-lang="en" aria-pressed="true">EN</button>
+        <span class="lang-toggle-sep">/</span>
+        <button type="button" class="lang-toggle-btn" data-lang="de" aria-pressed="false">DE</button>
+      </div>
     </div>
   </header>
   <!-- header ends here -->
@@ -83,27 +115,28 @@
     <div class="mobiletogglemenu" id="mobiletogglemenu">
       <ul class="mobile-navbar-tabs-ul" id="mobile-ul">
         <li id="home-mobile-tab" class="mobile-navbar-tabs-li home activeThismobiletab" onclick="hidemenubyli()">
-          <a href="#home" tabindex="0" aria-label="Home menu button">
-            Home
-          </a>
+          <a href="#home" data-i18n="nav.home">Home</a>
         </li>
 
         <li id="aboutme-mobile-tab" class="mobile-navbar-tabs-li about" onclick="hidemenubyli()">
-          <a href="#about" tabindex="0" aria-label="about menu button">
-            About
-          </a>
+          <a href="#about" data-i18n="nav.about">About</a>
         </li>
         <li id="skills-mobile-tab" class="mobile-navbar-tabs-li skills" onclick="hidemenubyli()">
-          <a href="#skills" tabindex="0" aria-label="skills menu button">
-            Skills
-          </a>
+          <a href="#skills" data-i18n="nav.skills">Skills</a>
+        </li>
+        <li id="services-mobile-tab" class="mobile-navbar-tabs-li services" onclick="hidemenubyli()">
+          <a href="#services" data-i18n="nav.services">Services</a>
         </li>
         <li id="projects-mobile-tab" class="mobile-navbar-tabs-li projects" onclick="hidemenubyli()">
-          <a href="#projects" tabindex="0" aria-label="projects menu button">
-            Projects
-          </a>
+          <a href="#projects" data-i18n="nav.projects">Projects</a>
         </li>
       </ul>
+
+      <div class="lang-toggle lang-toggle-mobile" role="group" aria-label="Language selector">
+        <button type="button" class="lang-toggle-btn" data-lang="en">EN</button>
+        <span class="lang-toggle-sep">/</span>
+        <button type="button" class="lang-toggle-btn" data-lang="de">DE</button>
+      </div>
     </div>
     <!-- mobile toggle menu ends -->
 
@@ -111,36 +144,33 @@
       <div class="blob"></div>
 
       <div class="text-content">
-        <article id="hello-friend" data-aos="fade-up" data-aos-delay="0">
-          <p class="">Hello,</p>
+        <article class="hello-friend" data-aos="fade-up" data-aos-delay="0">
+          <p data-i18n="hero.greeting">Hello,</p>
           &nbsp;
-          <p class="jello">I</p>
-          <p class="jello">'</p>
-          <p class="jello">m</p>
+          <p data-i18n="hero.im">I'm</p>
         </article>
         <article id="name" data-aos="fade-up" data-aos-delay="200">
-          <p class="">Kevin Peivareh</p>
+          <p>Kevin Peivareh</p>
         </article>
 
-        <article id="hello-friend" data-aos="fade-up" data-aos-delay="400">
+        <article class="hello-friend" data-aos="fade-up" data-aos-delay="400">
           <div>
-            <p>I lead to design and develop custom software solutions to drive your business forward.</p>
+            <p data-i18n="hero.tagline">I design and develop custom software solutions that drive your business forward.</p>
           </div>
         </article>
 
         <div class="contact-btn-div" data-aos="fade-up" data-aos-delay="800">
-          <a href="mailto:kevin@peivareh.com" tabindex="-1">
+          <a href="mailto:kevin@peivareh.com" aria-label="Email Kevin Peivareh">
             <button class="letsTalkBtn">
-              <p class="letsTalkBtn-text">Let's Talk!</p>
+              <p class="letsTalkBtn-text" data-i18n="hero.cta">Let's Talk!</p>
               <span class="letsTalkBtn-BG"></span>
             </button></a>
-          <!-- setting div ends -->
         </div>
 
 
         <div class="social-media-container">
           <div class="getintouch-heading">
-            <article>Get in touch</article>
+            <article data-i18n="hero.getintouch">Get in touch</article>
           </div>
           <div class="logos">
             <a href="https://www.linkedin.com/in/kevin-peivareh-752922b0/" target="_blank"
@@ -173,26 +203,23 @@
     <section class="about-section-container" id="about" data-aos="fade-up">
       <div class="about-section">
         <div class="section-heading">
-          <h2 class="section-heading-article" tabindex="0" aria-label="About me heading">
-            About
-          </h2>
+          <h2 class="section-heading-article" data-i18n="about.heading">About</h2>
           <p class="sectionHeadingP"></p>
         </div>
 
         <div class="info-dp-section">
           <div class="about-info">
-            <p tabindex="0">
-              Hello! I'm Kevin Peivareh, a dedicated R&D engineer based in Northern Germany. With a passion for Machine Learning, Computer Vision, and innovative software development, I continuously explore new technologies and solutions.
+            <p data-i18n="about.p1">
+              Hello! I'm Kevin Peivareh, an R&D engineer based in Hannover, Germany. I'm passionate about Machine Learning, Computer Vision, and building software that actually ships.
             </p>
             <br />
-            <p tabindex="0">
-              As the founder of dioptify, I focus on creating impactful projects that drive progress in the tech community.
+            <p>
+              <span data-i18n="about.p2.prefix">As the founder of </span><a href="https://dioptify.com" target="_blank" rel="noopener" class="inline-link">dioptify</a><span data-i18n="about.p2.middle">, I turn research-grade ideas into production tools — and through </span><a href="https://servicelead.info" target="_blank" rel="noopener" class="inline-link">servicelead</a><span data-i18n="about.p2.suffix"> I help teams adopt AI and CV without the vendor-lock-in overhead.</span>
             </p>
             <br />
-            <p tabindex="0">
-              My GitHub profile is a hub for my latest work, featuring a variety of repositories that showcase my skills in C++, Python, and more. I'm always open to collaboration and new opportunities. Feel free to reach out!
+            <p>
+              <span data-i18n="about.p3.prefix">My </span><a href="https://github.com/Birkenpapier" target="_blank" rel="noopener" class="inline-link">GitHub</a><span data-i18n="about.p3.middle"> is where I publish open-source work across C, C++, C#, Python, and TypeScript. Always open to collaboration — feel free to reach out.</span>
             </p>
-             <!-- Resume button -->
               <button class="resume-btn" id="resume-btn" onclick="openURL()">
                 <div class="sign">
                   <svg viewBox="0 0 640 512">
@@ -201,12 +228,12 @@
                   </svg>
                 </div>
 
-                <div class="text">Resume</div>
+                <div class="text" data-i18n="about.resume">Resume</div>
               </button>
           </div>
 
           <div class="dp" data-aos="fade-up">
-            <img src="src\webp\kevin.jpeg" alt="Portrait of Kevin Peivareh, Founder & Lead Developer" tabindex="0" aria-label="image of kevin" />
+            <img src="src/webp/kevin.jpeg" alt="Portrait of Kevin Peivareh, Founder & Lead Developer" loading="lazy" />
           </div>
         </div>
       </div>
@@ -216,50 +243,45 @@
     <section class="skills-section-container" id="skills">
       <div class="skills-section">
         <div class="section-heading" data-aos="fade-up">
-          <h2 class="section-heading-article" tabindex="0" aria-label="skills heading">
-            Skills
-          </h2>
+          <h2 class="section-heading-article" data-i18n="skills.heading">Skills</h2>
           <p class="sectionHeadingP"></p>
         </div>
 
         <div class="frontend-dev-section">
-          <h3 class="frontend-dev-heading" data-aos="fade-up" tabindex="0"
-            aria-label="As a frontend a developer these are the skills i have">
-            Tech Stack
-          </h3>
+          <h3 class="frontend-dev-heading" data-aos="fade-up" data-i18n="skills.techstack">Tech Stack</h3>
           <ul class="tech-stack-wrapper">
             <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/python.png" alt="github skill" class="tech-stack-logo needtobeinvert" />
+              <img src="./src/png/python.png" alt="Python" class="tech-stack-logo needtobeinvert" loading="lazy" />
               <span class="tooltip">Python</span>
             </li>
 
             <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/clogo.png" alt="c language skill" class="tech-stack-logo" />
+              <img src="./src/png/clogo.png" alt="C" class="tech-stack-logo" loading="lazy" />
               <span class="tooltip">C</span>
             </li>
 
             <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/cpplogo.png" alt="c++ language skill" class="tech-stack-logo" />
+              <img src="./src/png/cpplogo.png" alt="C++" class="tech-stack-logo" loading="lazy" />
               <span class="tooltip">C++</span>
             </li>
 
             <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/csharp.png" alt="c# skill" class="tech-stack-logo" />
+              <img src="./src/png/csharp.png" alt="C#" class="tech-stack-logo" loading="lazy" />
               <span class="tooltip">C#</span>
             </li>
 
             <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/jslogo.png" alt="js skill" class="tech-stack-logo" />
+              <img src="./src/png/jslogo.png" alt="JavaScript" class="tech-stack-logo" loading="lazy" />
               <span class="tooltip">JS</span>
             </li>
 
             <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/ts.png" alt="bootstrap skill" class="tech-stack-logo" />
+              <img src="./src/png/ts.png" alt="TypeScript" class="tech-stack-logo" loading="lazy" />
               <span class="tooltip">TS</span>
             </li>
 
             <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/reactlogo.png" alt="react skill" class="tech-stack-logo" />
+              <img src="./src/png/reactlogo.png" alt="React" class="tech-stack-logo" loading="lazy" />
               <span class="tooltip">REACT</span>
             </li>
           </ul>
@@ -267,17 +289,68 @@
       </div>
     </section>
     <!-- skills section ends -->
+
+    <section class="services-section-container" id="services">
+      <div class="services-section">
+        <div class="section-heading" data-aos="fade-up">
+          <h2 class="section-heading-article" data-i18n="services.heading">Services</h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card" data-aos="fade-up">
+            <div class="service-icon">🧠</div>
+            <h3 class="service-title" data-i18n="services.ml.title">Machine Learning</h3>
+            <p class="service-desc" data-i18n="services.ml.desc">From data pipeline to deployed model — training, evaluation, and production inference at sensible cost.</p>
+          </div>
+
+          <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-icon">👁️</div>
+            <h3 class="service-title" data-i18n="services.cv.title">Computer Vision</h3>
+            <p class="service-desc" data-i18n="services.cv.desc">Object detection, segmentation, OCR, and bespoke image pipelines for industrial and research use-cases.</p>
+          </div>
+
+          <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-icon">⚙️</div>
+            <h3 class="service-title" data-i18n="services.software.title">Custom Software</h3>
+            <p class="service-desc" data-i18n="services.software.desc">Backend services, APIs, automation, and internal tools in Python, C/C++, C#, and TypeScript.</p>
+          </div>
+
+          <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-icon">🌐</div>
+            <h3 class="service-title" data-i18n="services.web.title">Web Development</h3>
+            <p class="service-desc" data-i18n="services.web.desc">Modern, fast, accessible websites and dashboards built with React and TypeScript.</p>
+          </div>
+
+          <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-icon">🧪</div>
+            <h3 class="service-title" data-i18n="services.rnd.title">R&D &amp; Prototyping</h3>
+            <p class="service-desc" data-i18n="services.rnd.desc">Fast iteration on uncertain ideas — turn a fuzzy question into a working prototype in weeks, not quarters.</p>
+          </div>
+
+          <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-icon">🎯</div>
+            <h3 class="service-title" data-i18n="services.consulting.title">Consulting</h3>
+            <p class="service-desc" data-i18n="services.consulting.desc">Architecture reviews, code audits, and second opinions — remote or on-site in the Hannover area.</p>
+          </div>
+        </div>
+
+        <div class="services-cta" data-aos="fade-up">
+          <p data-i18n="services.cta">Have a project in mind? Let's figure out if I'm the right fit.</p>
+          <a href="mailto:kevin@peivareh.com?subject=Project%20Inquiry" class="services-cta-btn" data-i18n="services.ctabtn">Start a conversation →</a>
+        </div>
+      </div>
+    </section>
+    <!-- skills section ends -->
     <section class="projects-section-container" id="projects">
       <div class="projects-section-div">
         <div class="section-heading" data-aos="fade-up">
-          <h2 class="section-heading-article" tabindex="0" aria-label="My projects starts from here">
-            Projects
-          </h2>
+          <h2 class="section-heading-article" data-i18n="projects.heading">Projects</h2>
           <p class="sectionHeadingP"></p>
         </div>
         <div class="project-boxes-div">
           <div data-aos="fade-up" class="project-box-wrapper">
-            <div class="project-box project-box2" id="project-box2">
+            <div class="project-box project-box2">
               <div class="info-div">
                 <img src="src/webp/mdk_logistik.png" alt="pexelicon website favicon" class="faviconforProject" />
                 <article class="ProjectHeading">MDK Logistik</article>
@@ -287,7 +360,7 @@
                 <div class="project-buttons">
                   <a href="https://www.mdk-logistik.com" target="_blank" class="cta"
                     aria-label="Visit Pexelicons Live">
-                    <span>Live view</span>
+                    <span data-i18n="projects.live">Live view</span>
                     <svg viewBox="0 0 13 10" height="10px" width="15px">
                       <path d="M1,5 L11,5"></path>
                       <polyline points="8 1 12 5 8 9"></polyline>
@@ -302,21 +375,21 @@
           </div>
           
           <div data-aos="fade-up" class="project-box-wrapper">
-            <div class="project-box project-box2" id="project-box2">
+            <div class="project-box project-box2">
               <div class="info-div">
-                <img src="src/webp/dioptify_logo.png" alt="pexelicon website favicon" class="faviconforProject" />
+                <img src="src/webp/dioptify_logo.png" alt="dioptify logo" class="faviconforProject" loading="lazy" />
                 <article class="ProjectHeading">dioptify</article>
                 <p class="ProjectDescription">
                   dioptify: your AI imaginator
                 </p>
                 <div class="project-buttons">
-                  <a href="https://github.com/dioptify" target="_blank" class="github-redirect"
+                  <a href="https://github.com/dioptify" target="_blank" rel="noopener" class="github-redirect"
                     aria-label="Visit dioptify on GitHub">
-                    <img src="src/svg/github.svg" alt="github redirect button" />
+                    <img src="src/svg/github.svg" alt="GitHub" loading="lazy" />
                   </a>
-                  <a href="https://dioptify.com" target="_blank" class="cta"
-                    aria-label="Visit Pexelicons Live">
-                    <span>Live view</span>
+                  <a href="https://dioptify.com" target="_blank" rel="noopener" class="cta"
+                    aria-label="Visit dioptify live">
+                    <span data-i18n="projects.live">Live view</span>
                     <svg viewBox="0 0 13 10" height="10px" width="15px">
                       <path d="M1,5 L11,5"></path>
                       <polyline points="8 1 12 5 8 9"></polyline>
@@ -325,24 +398,24 @@
                 </div>
               </div>
               <div class="image-div">
-                <img src="src/webp/dioptify.png" alt="dioptify website preview image" />
+                <img src="src/webp/dioptify.png" alt="dioptify website preview" loading="lazy" />
               </div>
             </div>
           </div>
 
           <div class="project-box-wrapper" data-aos="fade-up">
-            <div class="project-box project-box5" id="project-box5">
+            <div class="project-box project-box5">
               <div class="info-div">
-                <img src="src/webp/servicelead_logo.png" alt="servicelead website favicon"
-                  class="faviconforProject" />
+                <img src="src/webp/servicelead_logo.png" alt="servicelead logo"
+                  class="faviconforProject" loading="lazy" />
                 <article class="ProjectHeading">servicelead</article>
                 <p class="ProjectDescription">
                   servicelead is a software agency specialized in AI, ML, CV
                   and many more.
                 </p>
                 <div class="project-buttons">
-                  <a href="https://servicelead.info" target="_blank" class="cta" aria-label="Visit servicelead live">
-                    <span>Live view</span>
+                  <a href="https://servicelead.info" target="_blank" rel="noopener" class="cta" aria-label="Visit servicelead live">
+                    <span data-i18n="projects.live">Live view</span>
                     <svg viewBox="0 0 13 10" height="10px" width="15px">
                       <path d="M1,5 L11,5"></path>
                       <polyline points="8 1 12 5 8 9"></polyline>
@@ -351,30 +424,29 @@
                 </div>
               </div>
               <div class="image-div">
-                <img src="src/webp/servicelead.png" alt="servicelead website preview image" />
+                <img src="src/webp/servicelead.png" alt="servicelead website preview" loading="lazy" />
               </div>
             </div>
           </div>
 
-          <!-- ---------------------- -->
           <div class="project-box-wrapper" data-aos="fade-up">
-            <div class="project-box project-box2" id="project-box2">
+            <div class="project-box project-box2">
               <div class="info-div">
-                <img src="src/webp/7400_NN_logo.png" alt="7400_NN website favicon"
-                  class="faviconforProjectAquaregia" />
+                <img src="src/webp/7400_NN_logo.png" alt="7400_NN logo"
+                  class="faviconforProjectAquaregia" loading="lazy" />
                 <article class="ProjectHeading">7400_NN</article>
                 <p class="ProjectDescription">
                  Neural network simulating a 7400 chip.
                 </p>
                 <div class="project-buttons">
-                  <a href="https://github.com/Birkenpapier/7400_NN" target="_blank" class="github-redirect"
+                  <a href="https://github.com/Birkenpapier/7400_NN" target="_blank" rel="noopener" class="github-redirect"
                     aria-label="Visit 7400_NN on GitHub">
-                    <img src="src/svg/github.svg" alt="github redirect button" />
+                    <img src="src/svg/github.svg" alt="GitHub" loading="lazy" />
                   </a>
                 </div>
               </div>
               <div class="image-div">
-                <img src="src/webp/7400_NN.png" alt="Aquaregia website preview image" />
+                <img src="src/webp/7400_NN.png" alt="7400_NN preview" loading="lazy" />
               </div>
             </div>
           </div>
@@ -387,25 +459,24 @@
   <footer id="footer">
     <div class="footer-bottom">
       <article>
-        Made with ❤️ in Hannover
-        &#169;2025
+        <span data-i18n="footer.text">Made with ❤️ in Hannover</span> &#169;<span id="footer-year">2026</span>
       </article>
     </div>
   </footer>
   <!-- footer ends here -->
 
   <script src="main.js"></script>
+  <script src="i18n.js"></script>
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
-    AOS.init();
+    AOS.init({ once: true, duration: 600, easing: 'ease-out-cubic' });
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
   </script>
 
   <script>
     function openURL() {
-      var url = "src\\pdf\\kpeivareh_2024.pdf";
-
-      window.open(url, "_blank");
+      window.open("src/pdf/kpeivareh_2024.pdf", "_blank", "noopener");
     }
   </script>
 </body>
